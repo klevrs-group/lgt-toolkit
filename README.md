@@ -9,12 +9,13 @@
 |---|---|---|
 | `skills/competitor-linkedin-audit` | открывает страницы и профили трёх конкурентов в LinkedIn через браузер, заполняет блок «Как они выглядят в LinkedIn» и два вывода: что берём себе, где у них пусто | Рынок, гео и конкуренты |
 | `skills/sales-navigator-segment-audit` | вводит фильтры из листа ICP в Sales Navigator, считает ёмкость с языковым фильтром и без, открывает десять профилей («те ли люди»), сохраняет поиски, отдаёт значения для строк «Фильтры Sales Navigator» и «Ёмкость» | Сегменты, ICP и оффер + проверка в Sales Navigator |
+| `skills/linkedin-profile-audit` | открывает ваш профиль в LinkedIn, проверяет headline, About, Featured, опыт, рекомендации, верификацию, URL, язык профиля по чек-листу урока «Профиль как оффер», отдаёт приоритетный список «что поправить первым» (5–7 пунктов) и статусы для чек-листа вкладки «Профиль» | Профиль как оффер |
 
 **Установка в Claude Code.** Скопировать папку скилла в `~/.claude/skills/` (для всех проектов) или в `.claude/skills/` внутри проекта. Проверить: `/skills` покажет имя. Для скиллов с браузером нужно расширение Claude in Chrome и открытый Chrome, где вы залогинены в LinkedIn.
 
 **Установка в Codex.** Скопировать папку в `~/.codex/skills/` или в `.agents/skills/` внутри проекта. Нужен браузерный инструмент Codex.
 
-**Запуск.** `/competitor-linkedin-audit` или своими словами: «разбери конкурентов в LinkedIn: Belkins, Cleverly, CIENCE; мой ICP — фаундеры dev-студий 10–50 человек». Для сегмента: `/sales-navigator-segment-audit` или «проверь в Sales Navigator сегмент 1 из моего листа ICP».
+**Запуск.** `/competitor-linkedin-audit` или своими словами: «разбери конкурентов в LinkedIn: Belkins, Cleverly, CIENCE; мой ICP — фаундеры dev-студий 10–50 человек». Для сегмента: `/sales-navigator-segment-audit` или «проверь в Sales Navigator сегмент 1 из моего листа ICP». Для своего профиля: `/linkedin-profile-audit` или «проверь мой профиль LinkedIn».
 
 ## Промпты (чат Claude или ChatGPT)
 
